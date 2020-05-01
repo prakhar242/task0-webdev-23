@@ -1,0 +1,14 @@
+pwd :present working directory
+cd :change directory
+clear :clears the history of commands used
+git status: shows the status of working tree
+git clone [url] : clones the repo to the computer
+git branch: shows all branches
+git branch [branch name] : adds a branch
+git checkout [branch name]: switches to that branch
+git merge [branchname]: merges this branch to the present branch
+git add [file]: adds the file to staging
+git commit -m "comment" : commits the file to local repository
+git pull : gets files from remote repository
+git push: sends file to remote repository
+
