@@ -1,0 +1,16 @@
+#touch log.txt
+
+
+git clone #clone repo to local machine
+
+git checkout -b #creating a branch and switching
+
+git add . #adding changes to txt files
+
+git commit -m #saving changes
+
+git checkout master #changing branch
+
+git merge #merging branches
+
+git push #upload local repo content to repository
