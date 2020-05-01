@@ -1,0 +1,22 @@
+Git commands used :-
+
+1.git clone <remote repo url> - will clone the repo to local storage in the given directory.
+
+2.git checkout -b <branchname> - will create a new branch and switched to this branch.
+
+3.touch log.txt - this is isn't a git command but a Termianal command to create a new file  in the git repo.
+
+4.git status - to check the change we made recently.
+
+5.git add log.txt - this is to stage the change we made .
+
+6.git commit -m " msg here " - to commit the change we made along with a small description about it.
+
+7.git remote set-url origin <remote repo url where we need to push our local repo> - will set the url where we are going to push or fetch.
+
+8.git push - will push the change we made and committed to the remote repo.
+
+Error! fatal: The current branch <branch name> has no upstream branch.
+
+9.git push --set-upstream origin <branch name> - To push the current branch and set the remote as upstream .
+
