@@ -1,0 +1,29 @@
+ Forking and Cloning :
+Having recieved the link, the common github repo is forked which serves as a way to see the changes to the existing repo from our side without actually affecting the 
+working project .This serves as a preview as to what our changes are going to reflect in the existing repository.
+
+ Git command to clone a existing repository:
+
+In this task,We have used git clone to create a local copy of the present git repository and do changes thus modifying the contents. This is accomplihed by using the command git clone url to clone the existing forked repository onto our local system.
+ git clone url : The command clones the existing repository with all the existing codes and branches to our local system.
+  
+ Branches in the cloned repository:
+
+Having stepped past the first rock , we are engulfed by a whole new dilemma as to creating branches in the existing repository. Branching is quite effective a method which helps us address different sections of an existing problem at the same point of time by creating different branches for the same.Git has in store a command which can help us create a branch :  git checkout -b branchname: -b signifies what we want is to generate a new branch from the existing master branch.To just switch between different branches and master we use : git checkout master/branchname: master takes us back to the master or the parent code. Now , we can generate branches within a branch as well all we have to do is to shift the control to the existing branch and run the commmand  : git checkout -b branchname : This  generates a sub branch in the existing branch.
+
+Having addressed the  elephant in the room which is the question if it was the egg or was it a chicken that came first. The first section consists of a one word solution to the existing problem and the second section discusses elaborately on the issue.Having compiled the two sections , we aim to merge the two branches into their parent branch to push the code onto github which is the remote we are using right now.
+
+Merging and merge conflicts:
+
+To merge our two solutions we now use the git merge command to merge the two of these branches into their parent branch.We use : git merge branch1 branch2 : from the parent branch directory to get the result of the two of them in the parent branch.We resolve the conflicts that arise from the merging of the two branches and now the branch is ready to be pushed onto github.
+
+Pushing the branch to the forked repository:
+
+i)git remote add origin url : the statement basically refers to this existing url which would be the repository location as the input.
+
+ii)git push -u origin parent branch : this command pushes the existing branch into the repository which has been forked .
+
+After step (ii) we can see the option compare and pull request which takes us to another screen where we see the option generate pull request.
+
+These listed steps guides the users to the accomplishment of the impending task.
+
