@@ -1,0 +1,46 @@
+#I forked from your repo
+git clone http://github.com/indreshp135/task0-webdev-23/
+#This clones to local 
+cd task0-webdev-23
+#To change dir
+git checkout -b Indresh_P
+#This create a branch named Indresh_P and goes there
+touch log.txt
+#to create the file
+git checkout -b b1
+#create first branches
+echo "chicken" | cat > ans
+#typed answer to that file
+git add . 
+#added it
+git commit -am "created ans"
+#committed it 
+git checkout -b b2
+#create second branch
+echo "#itsmychoise" | cat > ans
+#typed answer to that file
+git add . 
+#added it
+git commit -am "created ans"
+#committed it
+git checkout b1
+#back to b1 
+git merge b2
+#got conflit and file was like this  
+<<<<<<< HEAD
+chicken
+=======
+#itsmychoise
+>>>>>>> b2
+#changed it 
+git add .
+git commit -am "conflit resolved"
+#committed it 
+git checkout Indresh_P
+#back to Indresh_P branch
+mv log.txt Indresh_P.txt
+#changed file name
+git merge b1
+git checkout master
+git merge Indresh_P
+git push 
