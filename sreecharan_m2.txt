@@ -1,0 +1,40 @@
+sudo apt-get update
+
+sudo apt-get install git
+
+git --version
+
+cd /home/manivelan_d/gitlearn
+
+git init
+
+touch test.txt
+
+git status
+
+git commit -m "my first commit"
+
+git branch b1
+
+branch
+
+git clone https://github.com/prakhar242/task0-webdev-23 gittask
+
+git status
+
+git add gittask/
+
+git branch
+
+cd /home/manivelan_d/gitlearn/gittask
+
+git branch sreecharan_m
+
+git checkout sreecharan_m
+
+touch log.txt
+
+
+
+
+
