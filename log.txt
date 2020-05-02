@@ -1,0 +1,9 @@
+git clone-to retrieve repository from hosted location via url
+git add-to add a file in the staging area
+git commit-to commit the changes
+git branch-to show all branch and create new
+git log-to show all commits
+git status-to check the current status of working tree
+git checkout-to change into branch
+touch-to create file
+start-to open the file
